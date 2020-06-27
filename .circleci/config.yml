@@ -1,0 +1,11 @@
+version: 2
+jobs:
+  build:
+
+    docker:
+      - image: circleci/node:14.3.0
+
+    steps:
+      - run: npm i
+      - run: npm run lint
+
