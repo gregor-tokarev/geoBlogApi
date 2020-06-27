@@ -6,6 +6,7 @@ jobs:
       - image: circleci/node:14.3.0
 
     steps:
+      - checkout
       - run: npm i
       - run: npm run lint
 
