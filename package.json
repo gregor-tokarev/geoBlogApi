@@ -11,6 +11,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "^14"
+  },
   "devDependencies": {
     "@babel/core": "^7.10.3",
     "@babel/plugin-proposal-class-properties": "^7.10.1",
